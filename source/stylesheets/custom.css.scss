@@ -1,0 +1,158 @@
+p {
+    text-align: justify;
+}
+
+
+// 各ページの大見出し
+
+header.main h1{
+    background-color: #ddece0;
+    border-left: 10px solid #adcdb1;
+    border-bottom: 1px solid #d8dce5;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    font-weight: normal;
+    border: 3px double #adcdb1;
+    letter-spacing: 0.6rem;
+    -webkit-border-radius:3rem;
+    -moz-border-radius:3rem;
+    border-radius: 3rem;
+    text-shadow: 3px 3px 3px #33333;
+}
+
+h2.article-header {
+    padding: 10px 0px;
+    padding-left: 10px;
+    border-left: 5px solid orange;
+    border-bottom: 1px solid #d8dce5;
+    font-weight: normal;
+}
+
+
+// メニューを大きく
+#menu ul a, #menu ul span {
+    font-size: 1.2rem;
+}
+
+// youtubeをレスポンシブ
+
+.youtube {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+}
+.youtube iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+
+// 料金ページ
+.price-box {
+    background-color: #e6f0e5;
+    padding: 20px;
+    height: 280px;
+
+    .header {
+        border-bottom: 3px solid #82bf87;
+        text-align: center;
+    }
+
+    .count {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: .2rem;
+    }
+
+    .price {
+        text-align: center;
+        font-size: 0.8rem;
+        margin-bottom: .2rem;
+
+        span {
+            font-size: 3rem;
+        }
+    }
+
+    .message {
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+}
+
+.text-price {
+    margin-top: 3rem;
+}
+
+.price-box-recommend {
+    background-color: #d1f0bb;
+    // box-shadow: 5px 1px 10px -2px rgba(0, 0, 0, 0.4), -5px -1px 10px -2px rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (max-width: 736px) {
+    .row { margin: 0 -27px}
+    .price-box {
+        background-color: #e6f0e5;
+        padding: 20px;
+        height: 250px;
+
+        .header {
+            border-bottom: 3px solid #82bf87;
+            text-align: center;
+        }
+
+        .count {
+            font-size: 1.5rem;
+            text-align: center;
+            margin-bottom: .2rem;
+        }
+
+        .price {
+            text-align: center;
+            font-size: 1.5rem;
+            margin-bottom: .2rem;
+
+            span {
+                font-size: 3rem;
+            }
+        }
+
+        .message {
+            text-align: center;
+            font-size: 0.8rem;
+        }
+
+    }
+
+    .price-box-recommend {
+        background-color: #d1f0bb;
+        //box-shadow: 5px 1px 10px -2px rgba(0, 0, 0, 0.4), -5px -1px 10px -2px rgba(0, 0, 0, 0.4);
+    }
+}
+
+// 脳若
+.trainning-menu h3 {
+    font-weight: normal;
+    background-color: #388b5e;
+    color: white;
+    padding-left: 10px;
+}
+
+.trainning-menu p {
+    height: 100px;
+}
+
+@media screen and (max-width: 736px) {
+    .trainning-menu p {
+        height: 50px;
+    }
+}
+// 時間割
+.lunchtime {
+    text-align: center;
+}
