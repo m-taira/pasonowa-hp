@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'pasonowa';
+  src: url("../fonts/RictyDiminished-Regular.woff") format("opentype"); }
+.pasonowa {
+  font-family: 'pasonowa'; }
+
 p {
   text-align: justify; }
 
@@ -87,8 +93,6 @@ h2.article-header {
       font-size: 1.5rem;
       text-align: center;
       margin-bottom: .2rem; }
-      .price-box .count .segment {
-        border: 2px solid white; }
     .price-box .price {
       text-align: center;
       font-size: 1.5rem;
@@ -115,3 +119,6 @@ h2.article-header {
     height: 50px; } }
 .lunchtime {
   text-align: center; }
+
+.signature {
+  text-align: right; }
