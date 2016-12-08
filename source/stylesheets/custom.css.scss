@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'pasonowa';
+    src: url("../fonts/RictyDiminished-Regular.woff") format('opentype');
+}
+
+.pasonowa {
+    font-family: 'pasonowa';
+}
+
 p {
     text-align: justify;
 }
@@ -119,9 +128,6 @@ h2.article-header {
             font-size: 1.5rem;
             text-align: center;
             margin-bottom: .2rem;
-            .segment {
-                border: 2px solid white;
-            }
         }
 
         .price {
@@ -167,4 +173,8 @@ h2.article-header {
 // 時間割
 .lunchtime {
     text-align: center;
+}
+
+.signature {
+    text-align: right;
 }
