@@ -4,5 +4,5 @@ http://pasonowa.com/spirit.html
 http://pasonowa.com/school.html
 http://pasonowa.com/nouwaka.html
 http://pasonowa.com/price.html
-http://pasonowa.com/staff.html
+http://pasonowa.com/instructor.html
 http://pasonowa.com/access.html

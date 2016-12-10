@@ -4,13 +4,13 @@ html
     title = "#{current_page.data.title}"
     meta charset="utf-8" /
     meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport" /
-    meta name="description" content="三木市志染駅前 脳トレとパソコン教室のパソノワです。認知症予防のためのトレーニング、『みつおか式脳若トレーニング』が受講できる脳若ステーションです。"
+    meta name="description" content="#{current_page.data.description}"
     meta name="author" content="pasonowa"
     meta property="og:type" content="#{current_page.data.og_type}"
     meta property="og:image" content="http://pasonowa.com/images/logo.png"
     meta property="og:title" content="#{current_page.data.title}"
     meta property="og:url" content="http://pasonowa.com/#{current_page.path.delete('index.html')}"
-    meta property="og:description" content="三木市志染駅前 脳トレとパソコン教室のパソノワです。認知症予防のためのトレーニング、『みつおか式脳若トレーニング』が受講できる脳若ステーションです。"
+    meta property="og:description" content="#{current_page.data.description}"
     meta property="og:site_name" content="脳トレとパソコン教室のパソノワ"
     meta property="og:locale" content="ja_JP"
     meta property="fb:app_id" content="1231114006970207"
@@ -52,19 +52,19 @@ html
               h2 メニュー
             ul
               li
-                a href="index.html"  トップ
+                a href="index.html" トップ
               li
                 a href="spirit.html" 教室の想い
               li
-                a href="school.html"  教室の特徴
+                a href="school.html" 教室の特徴
               li
-                a href="nouwaka.html"  脳若トレーニング
+                a href="nouwaka.html" 脳若トレーニング
               li
-                a href="staff.html"  スタッフ
+                a href="instructor.html" インストラクター
               li
-                a href="price.html"  料金・時間割
+                a href="price.html" 料金・時間割
               li
-                a href="access.html"  アクセス
+                a href="access.html" アクセス
           /! Section
           section
             header.major
