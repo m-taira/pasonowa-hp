@@ -40,7 +40,7 @@ html
                 a.icon.fa-twitter href="#"
                   span.label Twitter
               li
-                a.icon.fa-facebook href="https://www.facebook.com/パソノワ-1783740475209230/"
+                a.icon.fa-facebook href="https://www.facebook.com/pasonowa/"
                   span.label Facebook
           = yield
       /! Sidebar
@@ -83,6 +83,8 @@ html
                 | サンテラス志染 3F
               li.fa-calendar 月、火、水、木、金
               li.fa-clock-o 10:00 〜 17:00
+          section
+            div class="fb-like" data-href="http://pasonowa.com" data-layout="button" data-action="like" data-size="small" data-show-faces="true" data-share="true"
           /! Footer
           footer#footer
             p.copyright
@@ -99,6 +101,7 @@ html
       /![if lte IE 8] <script src="assets/js/ie/respond.min.js"></script
       script src="assets/js/main.js"
 
+  div id="fb-root"
   javascript:
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -107,3 +110,12 @@ html
 
     ga('create', 'UA-88481729-1', 'auto');
     ga('send', 'pageview');
+
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.8&appId=1231114006970207";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
